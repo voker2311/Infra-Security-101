@@ -1,1 +1,112 @@
+## External Recon & Testing
+One should gather the probable email addressess of the employees working at XYZ company using the methods given below. It is possible to craft the email address by finding out the domain name and the email format of the company.
+- Reconnaissance using the tools given below
+  - phonebook.cz
+  - theHarvester
+  - hunter.io (Paid)
+  - linkedin.com (https://gist.github.com/Voker2311/c8ff452fa6631f8aa6e629a33a4aa974)
+  - Github & Google dorking
+  - Search engines like Bing, Baidu, Google, DuckDuckGo, Yandex
+  - dehashed.com (credential stuffing)
+  - spiderfoot
+  - pastebins
+  - ![crosslinked.py](https://github.com/m8sec/CrossLinked)
+- Outlook account exploitation
+- AWS account exploitation
+- Azure AD Enumeration
+- Nmap and Nessus services scan
+- Known CVEs and vulnerabilities
+- OSINT
+- Breach Parse by Heath Adams
+- Phishing Campaign (if in-scope)
+- Github, Gitlab, BitBucket, TFS, SVN enumeration
 
+## Internal Recon & Testing
+- Nmap scans
+  - Full port
+  - Fast UDP scan
+  - Basic TCP
+  - Stealth scan (in case of firewall)
+  - Services scan
+  - Vulners scan
+- Nessus scanning
+- Domain enumeration using PowerView, BloodHound, ADModule and powercat
+- Weak AD Credentials
+- samAccountName spoofing (CVE-2021–42278 and CVE-2021–42287)
+- LLMNR/NBTNS Poisoning
+- ADIDNS wildcard entry for LLMNR spoofing
+- MITM attacks like ARP, DHCP spoofing and poisoning
+- Zerologon (CVE-2020-1472)
+- Anonymous LDAP bind
+- Checking for AzureADConnect Sync for dumping domain admin credential.
+  - https://vbscrub.com/2020/01/14/azure-ad-connect-database-exploit-priv-esc/
+  - https://blog.xpnsec.com/azuread-connect-for-redteam/
+- AdminCount attribute set on common users
+- AD Credentials reuse (Location specific)
+- SMB Guest session configured
+- goldenPac attack (MS14-068)
+- Open SMB shares
+- SCF/URL/RTF file attack
+- Location based password spraying like Mumbai@123, Bangalore@123 and so on.
+- Account lockout policy not set for domain accounts
+- Users having rights to add computers to domain
+- PrintNightmare RCE
+- ADCS templates exploitation
+- Active Directory Certificate Services (CVE-2022-26923)
+- Kerberos attacks
+  - Pass The Ticket attack
+  - Kerberoasting
+  - AS-REP Roasting
+  - Golden & Silver Ticket attacks
+  - Skeleton Key attack (Persistence)
+- Local admin access using weak credentials
+- Checking Group Policies
+- Checking SYSVOL folder for logon scripts
+- DFSCoerce NTLM Relay attack
+- WannaCry Ransomware / EternalBlue
+  - (https://raw.githubusercontent.com/worawit/MS17-010/master/checker.py)
+- Bluekeep RDP Exploit
+- Heartbleed SSL check
+- Weak credentials against different services like MSSQL, WinRM, RDP, SSH, FTP, etc.
+- Microsoft Follina Phishing attack
+- Default userpasses like user:user123, user:user, admin:admin@123 and so on.
+- HiveNightmare / Serious SAM
+- PowerView enumeration
+- Checking weak credentials against VNC, X11, and SNMP
+- AnyDesk port 7070 exploitation
+- Solarwinds DameWare Remote Control Exploitation
+- Log4shell and Spring4shell
+- Bloodhound / SharpHound enumeration
+- Windows Privilege Escalation
+  - Member of Administrators group
+  - Service misconfigurations
+  - Kernal Exploits - Known CVEs and vulnerabilities
+  - Registry Exploits
+  - Storage of cleartext credentials
+  - Impersonation exploits
+  - AV Evasion & AMSI Bypass techniques
+- Exploiting services like Redis, Memcache, Oracle, Apache, etc.
+- Oracle attacks
+  - Oracle TNS Poisoning
+  - Brute forcing TNS Listener
+  - https://book.hacktricks.xyz/network-services-pentesting/1521-1522-1529-pentesting-oracle-listener
+
+When a NTLM authentication is disabled, it is possible to pwn the environment by using the set of impacket tools. (Only if one have valid domain credentials)
+- Use of impacket toolkit
+
+Tools for Permissions & ACL Enumeration:
+- BloodHound
+- ldap-utils
+- PowerView
+- http://cjwdev.com/Software/ADPermissionsReporter/Download.html
+
+### Post Exploitation:
+- PowerShell History file
+- Stored Passwords in text and configuration files
+- Escalation via WSL (Windows Subsystem for Linux)
+- runAs command to use stored credentials on the machine
+- Escalation via AutoRun feature
+- AlwaysInstalledElevated feature
+- Autologon credentials
+- Using Lazagne tool to extract credentials (https://github.com/AlessandroZ/LaZagne)
+- regsvc ACL exploit
