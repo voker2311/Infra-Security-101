@@ -100,6 +100,12 @@ Tools for Permissions & ACL Enumeration:
 - PowerView
 - http://cjwdev.com/Software/ADPermissionsReporter/Download.html
 
+### AMSI/AV Bypass techniques
+- Modifying couple of function name and parameters in the reverse shell/exploits. If possible, try to create our own reverse shell using C# or C++ to evade Windows Defender or AV.
+- https://pentestlaboratories.com/2021/05/17/amsi-bypass-methods/
+- Use of netcat (In a real world scenario)
+- Use of ![GreatSCT](https://github.com/GreatSCT/GreatSCT) toolkit for creating obfuscated payloads
+
 ### Post Exploitation:
 - PowerShell History file
 - Stored Passwords in text and configuration files
