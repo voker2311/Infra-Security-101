@@ -32,6 +32,7 @@ One should gather the probable email addressess of the employees working at XYZ 
 - Nessus scanning
 - Domain enumeration using PowerView, BloodHound, ADModule and powercat
 - Weak AD Credentials
+- PetitPotam unauthenticated NTLM relaying
 - samAccountName spoofing (CVE-2021–42278 and CVE-2021–42287)
 - LLMNR/NBTNS Poisoning
 - ADIDNS wildcard entry for LLMNR spoofing
