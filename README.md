@@ -36,7 +36,7 @@ One should gather the probable email addressess of the employees working at XYZ 
 - LLMNR/NBTNS Poisoning
 - ADIDNS wildcard entry for LLMNR spoofing
 - MITM attacks like ARP, DHCP spoofing and poisoning
-- Zerologon (CVE-2020-1472)
+- Zerologon (CVE-2020-1472) (https://github.com/SecuraBV/CVE-2020-1472)
 - Anonymous LDAP bind
 - Checking for AzureADConnect Sync for dumping domain admin credential.
   - https://vbscrub.com/2020/01/14/azure-ad-connect-database-exploit-priv-esc/
