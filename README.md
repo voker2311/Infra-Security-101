@@ -45,6 +45,7 @@ One should gather the probable email addressess of the employees working at XYZ 
 - AD Credentials reuse (Location specific)
 - SMB Guest session configured
 - goldenPac attack (MS14-068)
+- mitm6 attacks & relaying (https://dirkjanm.io/worst-of-both-worlds-ntlm-relaying-and-kerberos-delegation/)
 - Open SMB shares
 - SCF/URL/RTF file attack
 - Location based password spraying like Mumbai@123, Bangalore@123 and so on.
