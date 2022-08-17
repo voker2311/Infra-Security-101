@@ -118,3 +118,8 @@ Tools for Permissions & ACL Enumeration:
 - Autologon credentials
 - Using Lazagne tool to extract credentials (https://github.com/AlessandroZ/LaZagne)
 - regsvc ACL exploit
+
+### Wireless Security
+- Beacon flood attack
+- Deauthentication/Disassociation
+- Fake captive portals
