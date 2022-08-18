@@ -115,6 +115,7 @@ Tools for Permissions & ACL Enumeration:
 - runAs command to use stored credentials on the machine
 - Escalation via AutoRun feature
 - AlwaysInstalledElevated feature
+- Azure Pass-The-Cookie attack (Firefox/Chrome) - Bypassing MFA
 - Autologon credentials
 - Using Lazagne tool to extract credentials (https://github.com/AlessandroZ/LaZagne)
 - regsvc ACL exploit
