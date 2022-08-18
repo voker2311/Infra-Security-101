@@ -120,6 +120,9 @@ Tools for Permissions & ACL Enumeration:
 - regsvc ACL exploit
 
 ### Wireless Security
+- WEP cracking
 - Beacon flood attack
 - Deauthentication/Disassociation
 - Fake captive portals
+- Social Engineering
+- WPA2 cracking
