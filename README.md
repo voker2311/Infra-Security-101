@@ -20,6 +20,7 @@ One should gather the probable email addressess of the employees working at XYZ 
 - Breach Parse by Heath Adams
 - Phishing Campaign (if in-scope)
 - Github, Gitlab, BitBucket, TFS, SVN enumeration
+- Username generation (https://gist.githubusercontent.com/superkojiman/11076951/raw/74f3de7740acb197ecfa8340d07d3926a95e5d46/namemash.py)
 
 ## Internal Recon & Testing
 - Nmap scans
