@@ -127,3 +127,4 @@ Tools for Permissions & ACL Enumeration:
 - Fake captive portals
 - Social Engineering
 - WPA2 cracking
+- AP-less attacks
