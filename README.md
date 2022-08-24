@@ -103,6 +103,16 @@ Tools for Permissions & ACL Enumeration:
 - PowerView
 - http://cjwdev.com/Software/ADPermissionsReporter/Download.html
 
+### Hash cracking
+- Basic hash cracking using open source wordlists (Seclists,crackstation.net,rockyou.txt)
+- Rule based hash cracking
+- Mask based hash cracking
+  - eg. For Password1, we can set mask to something like: ?u?l?l?l?l?l?l?l?d
+  - eg. For Company@123, we can set mask to something like: ?u?l?l?l?l?l?l?1?d?d?d
+- Renting GPU servers on Cloud
+- Using ![kwprocessor](https://github.com/hashcat/kwprocessor)
+
+
 ### AMSI/AV Bypass techniques
 - Modifying couple of function name and parameters in the reverse shell/exploits. If possible, try to create our own reverse shell using C# or C++ to evade Windows Defender or AV.
 - https://pentestlaboratories.com/2021/05/17/amsi-bypass-methods/
