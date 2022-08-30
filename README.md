@@ -46,6 +46,7 @@ One should gather the probable email addressess of the employees working at XYZ 
 - AdminCount attribute set on common users
 - AD Credentials reuse (Location specific)
 - SMB Guest session configured
+- PrinterBug + Unconstrained Delegation system -> Elevated Access
 - goldenPac attack (MS14-068)
 - mitm6 attacks & relaying (https://dirkjanm.io/worst-of-both-worlds-ntlm-relaying-and-kerberos-delegation/)
 - Open SMB shares
