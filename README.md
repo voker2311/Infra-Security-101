@@ -71,7 +71,7 @@ One should gather the probable email addressess of the employees working at XYZ 
   - (https://raw.githubusercontent.com/worawit/MS17-010/master/checker.py)
 - Bluekeep RDP Exploit
 - Heartbleed SSL check
-- Weak credentials against different services like MSSQL, WinRM, RDP, SSH, FTP, etc.
+- Weak credentials against different services like MSSQL, WinRM, RDP, SSH, FTP, etc. (https://github.com/fuzz-security/SuperWordlist)
 - Microsoft Follina Phishing attack
 - Default userpasses like user:user123, user:user, admin:admin@123 and so on.
 - HiveNightmare / Serious SAM
