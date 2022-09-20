@@ -26,6 +26,7 @@ One should gather the probable email addressess of the employees working at XYZ 
 - Nmap scans
   - Full port
   - Fast UDP scan
+  - Decoys, Fragmented, Timing and Source ports scanning for firewall/IDS evasion
   - Basic TCP
   - Stealth scan (in case of firewall)
   - Services scan
